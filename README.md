@@ -3,20 +3,6 @@
 
 ![这是一张图片](https://github.com/baorant/TeaScreenPopupWindow/blob/master/image/%E5%AE%89%E5%8D%93%E9%80%89%E6%8B%A9%E5%99%A8%E7%AD%9B%E9%80%89%E6%A1%86%E6%A0%B7%E5%BC%8F.gif)
 
-## 引入module
-```java
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven { url 'https://www.jitpack.io' }
-    }
-}
-```
-```java
-implementation 'com.github.YangsBryant:TeaScreenPopupWindow:1.0.4'
-```
-
 ## 主要代码
 ```java
 public class MainActivity extends AppCompatActivity {
