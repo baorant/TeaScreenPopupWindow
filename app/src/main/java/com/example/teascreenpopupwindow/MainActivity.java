@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initParam() {
-        String[] brand = {"花花公子", "语克","优衣库", "美特斯邦威", "森马", "翰代维", "PUMA"};
+        String[] brand = {"txt", "pdf","jpg", "jpeg", "png", "*"};
         String[] type = {"男装", "T恤", "运动服", "女装", "童装", "紧身衣"};
 
         /*————防止数据错乱，不能共用javabean————*/
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         fb2.setChildren(childrenList2);
         /*————————*/
         FiltrateBean fb3 = new FiltrateBean();
-        fb3.setTypeName("品牌");
+        fb3.setTypeName("格式");
         List<FiltrateBean.Children> childrenList3 = new ArrayList<>();
         for (String aBrand : brand) {
             FiltrateBean.Children cd = new FiltrateBean.Children();
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
         dictList.add(fb2);
 
         dictList2.add(fb3);
-        dictList2.add(fb4);
+//        dictList2.add(fb4);
 
         dictList3.add(fb5);
     }
